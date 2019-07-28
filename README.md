@@ -61,7 +61,7 @@ public $secret = ''; //Secret
 - Done
 
 # login
-- Pass : admin
+- Pass : password
 - User : admin@gmail.com
 
 # Check User Level
