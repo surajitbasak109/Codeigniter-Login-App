@@ -1,0 +1,139 @@
+.error {
+   border: 1px solid #ff5b5b;
+   background: #fff;
+   padding: 5px;
+   color: red;
+   margin: 5px 0;
+   text-align: center;
+   position: relative;
+}
+
+.error:before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ff5b5b;
+    text-shadow:none;
+    display:block;
+}
+
+#pswd_info {
+   position:absolute;
+   bottom:-75px;
+   bottom: -115px\9; /* IE Specific */
+   right:55px;
+   width:250px;
+   padding:15px;
+   background:#fefefe;
+   font-size:.875em;
+   border-radius:5px;
+   box-shadow:0 1px 3px #ccc;
+   border:1px solid #ddd;
+}
+
+#pswd_info ul {
+   list-style: none;
+}
+
+#pswd_info h4 {
+   margin:0 0 10px 0;
+   padding:0;
+   font-weight:normal;
+}
+
+#pswd_info::before {
+   content: "\25B2";
+   position:absolute;
+   top:-12px;
+   left:45%;
+   font-size:14px;
+   line-height:14px;
+   color:#ddd;
+   text-shadow:none;
+   display:block;
+}
+
+#pswdconf_info {
+   position:absolute;
+   bottom:-75px;
+   bottom: -115px\9; /* IE Specific */
+   right:55px;
+   width:250px;
+   padding:15px;
+   background:#fefefe;
+   font-size:.875em;
+   border-radius:5px;
+   box-shadow:0 1px 3px #ccc;
+   border:1px solid #ddd;
+}
+
+#pswdconf_info ul {
+   list-style: none;
+}
+
+#pswdconf_info h4 {
+   margin:0 0 10px 0;
+   padding:0;
+   font-weight:normal;
+}
+
+#pswdconf_info::before {
+   content: "\25B2";
+   position:absolute;
+   top:-12px;
+   left:45%;
+   font-size:14px;
+   line-height:14px;
+   color:#ddd;
+   text-shadow:none;
+   display:block;
+}
+
+.invalid {
+   background:url(../img/icons/invalid.png) no-repeat 0 50%;
+   padding-left:22px;
+   line-height:24px;
+   color:#ec3f41;
+}
+.valid {
+   background:url(../img/icons/valid.png) no-repeat 0 50%;
+   padding-left:22px;
+   line-height:24px;
+   color:#3a7d34;
+}
+
+#pswd_info {
+   display:none;
+}
+
+#pswdconf_info {
+   display:none;
+}
+
+.select2-selection__rendered {
+    line-height: 31px !important;
+}
+.select2-container .select2-selection--single {
+    height: 35px !important;
+}
+.select2-selection__arrow {
+    height: 34px !important;
+}
+
+.select2-container--default.select2-container--focus,
+.select2-selection.select2-container--focus,
+.select2-container--default:focus,
+.select2-selection:focus,
+.select2-container--default:active,
+.select2-selection:active {
+   border: 1px solid #3c8dbc;
+}
+
+.select2-container--default .select2-selection--single {
+   background-color: #fff;
+   border: 1px solid #aaa;
+   border-radius: 0;
+}
