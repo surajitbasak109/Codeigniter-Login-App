@@ -7,7 +7,7 @@ Created By me [Surajit Basak](http://surajitbasak109.github.com)
 # Screenshot
 <img width="100%" alt="Codeigniter Login Application" src="https://raw.githubusercontent.com/surajitbasak109/Codeigniter-Login-App/master/codeigniter-login-app-screenshot.png">
 
-<img width="100%" src="/surajitbasak109/Codeigniter-Login-App/blob/master/codeigniter-login-app-screenshot2.png?raw=true" alt="codeigniter-login-app-screenshot2.png">
+<img width="100%" src="https://raw.githubusercontent.com/surajitbasak109/Codeigniter-Login-App/master/codeigniter-login-app-screenshot2.png" alt="codeigniter-login-app-screenshot2.png">
 
 I could not uploaded Bower_Component directory as it was 40MB in size. You can download the Admin LTE from <a href="https://adminlte.io/">here</a> and copy the bower_components into the public folder.
 
