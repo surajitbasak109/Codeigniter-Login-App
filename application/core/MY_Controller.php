@@ -17,8 +17,8 @@ class MY_Controller extends CI_Controller
       $mail->isSMTP();
       $mail->Host     = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
-      $mail->Username = 'silwebdev@gmail.com';
-      $mail->Password = 'step2success';
+      $mail->Username = '';
+      $mail->Password = '';
       $mail->SMTPSecure = 'tls';
       $mail->Port     = 587;
      
